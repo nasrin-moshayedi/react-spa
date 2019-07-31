@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxyggen", "Ubuntu", "Cantareil", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f2f2f2;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", cursive,
+    monospace;
+}
+.image {
+  /*background: url(https://image.spreadshirtmedia.net/image-server/v1/mp/products/T631A1MPA128…rogrammer-craftsmanship-at-its-finest-like-a-super-hero-womens-t-shirt.jpg);*/
+  width: 600px;
+  top: 0;
+  position: relative;
+  text-align: left;
+  align-items: flex-start;
+  height: 790px;
+  left: 0;
+
+  background: url("./../images/girl.jpg") no-repeat center;
+  background-size: cover;
+}
+.logo {
+  text-align: center;
+  font-family: Roboto, cursive;
+  color: #26769e;
+  margin: 0;
+}
+
+.logoN {
+  font-size: 100px;
+}
+
+.image-text {
+  position: relative;
+  top: 200px;
+  left: 135%;
+  color: darkslategrey;
+  /*text-align: center;*/
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  justify-content: flex-end;
+  margin: 10px 30px;
+}
+
+.text-degree {
+  transform: rotate(-90deg);
+  font-size: 20px;
+  color: grey;
+  padding: 80px 0;
+  text-decoration: none;
+}
+.centerMenuItem {
+  text-align: center;
+  display: block;
+  line-height: 60px;
+}
+
+menuitem {
+  box-shadow: 1px 0 9px 3px #f1f1f1;
+}
+
+/* .red {
+  box-shadow: 1px 0 9px 3px #f1f1f1;
+  border-bottom: 3px solid #fff;
+} */
+
+.center-menu-item {
+  text-align: center;
+  display: block;
+  height: 60px;
+  line-height: 62px;
+  border-bottom: 3px solid #fff;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.center-menu-item:hover {
+  border-bottom: 3px solid #aeaeae;
+  border-radius: 2px;
+  background-color: transparent !important;
+}
+
+.center-menu-item:focus {
+  outline: none;
+}
+
+.menu-contetns {
+  padding: 10px;
+  text-decoration: none;
+  color: #2f4f4f;
+  font-weight: bolder;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.MuiTouchRipple-root-121 {
+  top: 0;
+  left: 0;
+  width: 1px !important;
+  height: 1px !important;
+  display: inline-block !important;
+  z-index: 0;
+  position: absolute;
+  overflow: hidden;
+  border-radius: inherit;
+  pointer-events: none;
+}
+
+.contact-image {
+  height: 720px;
+  position: relative;
+  top: 20px;
+  left: 10%;
+}
+
+.formStyle {
+  position: absolute !important;
+  top: 50%;
+  left: 50%;
+}
